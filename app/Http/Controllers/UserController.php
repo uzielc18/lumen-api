@@ -27,7 +27,8 @@ class UserController extends Controller
         $this->userTransformer = $userTransformer;
     }
 
-    public function show(){
+    public function show()
+    {
 
         $user = $this->userRepository->getAll();
 

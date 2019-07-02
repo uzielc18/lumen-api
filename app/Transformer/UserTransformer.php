@@ -9,7 +9,8 @@ use League\Fractal\TransformerAbstract;
 
 class UserTransformer extends TransformerAbstract
 {
-    function transform(User $user){
+    function transform(User $user)
+    {
         return [
             'id' => $user->id,
             'first_name' => $user->first_name,
